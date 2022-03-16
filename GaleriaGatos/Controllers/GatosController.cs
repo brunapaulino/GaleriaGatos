@@ -14,13 +14,6 @@ namespace GaleriaGatos.Controllers
             _gatosRepository = gatosRepository;
         }
 
-        private readonly ILogger<GatosController> _logger;
-
-        public GatosController(ILogger<GatosController> logger)
-        {
-            _logger = logger;
-        }
-
         [HttpGet]
         public async Task<IEnumerable<Gatos>> GetGatos()
         {

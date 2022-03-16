@@ -1,6 +1,5 @@
-using GaleriaGatos;
 
-namespace GaleriaAPI
+namespace GaleriaGatos
 {
     public static class Program
     {

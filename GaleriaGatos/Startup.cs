@@ -1,6 +1,7 @@
 ﻿using GaleriaGatos.Properties.Model;
 using GaleriaGatos.Repositories;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.OpenApi.Models;
 
 namespace GaleriaGatos
 {

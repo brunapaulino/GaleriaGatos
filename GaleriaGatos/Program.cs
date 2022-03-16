@@ -1,4 +1,3 @@
-
 namespace GaleriaGatos
 {
     public static class Program
